@@ -52,6 +52,7 @@ class CRM_Citycentre_Matcher {
     $config = CRM_Citycentre_CitycentreConfig::singleton();
     $update_contact['id'] = $contact_id;
     $update_contact['custom_'.$config->getCitycentreField('id')] = $citycentre;
+    $update_contact['custom_'.$config->getManualField('id')] = '0';
     civicrm_api3('Contact', 'create', $update_contact);
 
     $this->already_updating = false;

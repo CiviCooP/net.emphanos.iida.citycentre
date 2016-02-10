@@ -1,2 +1,2 @@
-# net.emphanos.iida.chapters
-Matching contacts to their local chapter
+# net.emphanos.iida.citycentre
+Matching contacts to their local city centre

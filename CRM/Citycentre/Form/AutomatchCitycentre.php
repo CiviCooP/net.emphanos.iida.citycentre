@@ -124,7 +124,7 @@ class CRM_Citycentre_Form_AutomatchCitycentre extends CRM_Core_Form {
   }
 
   protected function updateAllContacts() {
-    $queue = CRM_Chapters_UpdateQueue::singleton()->getQueue();
+    $queue = CRM_Citycentre_UpdateQueue::singleton()->getQueue();
     $max_contacts = CRM_Core_DAO::singleValueQuery("SELECT COUNT(*) FROM civicrm_contact WHERE is_deleted = 0");
     for($i=0; $i < $max_contacts; $i = $i + 500) {
       //create a task without parameters
