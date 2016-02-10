@@ -4,7 +4,7 @@
   <CustomGroups>
     <CustomGroup>
       <name>Automatch_citycentre</name>
-      <title>Automatch members</title>
+      <title>Zipcode range</title>
       <extends>Organization</extends>
       <extends_entity_column_value_option_group>contact_type</extends_entity_column_value_option_group>
       <extends_entity_column_value>City Centre</extends_entity_column_value>
