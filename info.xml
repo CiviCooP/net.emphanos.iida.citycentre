@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<extension key="net.emphanos.iida.citycentre" type="module">
+  <file>citycentre</file>
+  <name>City Centre</name>
+  <description>City Centre structure for IIDA</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Jaap Jansma</author>
+    <email>jaap.jansma@civicoop.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2016-01-27</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+  </compatibility>
+  <civix>
+    <namespace>CRM/Citycentre</namespace>
+  </civix>
+</extension>
